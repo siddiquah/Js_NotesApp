@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #88ABFF;
+    background: radial-gradient(circle, rgba(252,138,123,1) 0%, rgba(251,103,110,1) 100%);
 }
 
 .wrapper {
@@ -41,15 +41,15 @@ body {
 .add-box .icon {
     height: 78px;
     width: 78px;
-    color: #88ABFF;
+    color: #fb676e;
     font-size: 40px;
     border-radius: 50%;
     justify-content: center;
-    border: 2px dashed #88ABFF;
+    border: 2px dashed #fb676e;
 }
 
 .add-box p {
-    color: #88ABFF;
+    color: #fb676e;
     font-weight: 500;
     margin-top: 20px;
 }
@@ -61,6 +61,7 @@ body {
 }
 
 .note p {
+    color: #fb676e;
     font-size: 22px;
     font-weight: 700;
 }
@@ -83,7 +84,7 @@ body {
 }
 
 .bottom-content .settings i {
-    color: #000;
+    color: rgb(179, 95, 95);
     font-size: 15px;
     cursor: pointer;
 }
@@ -111,6 +112,7 @@ body {
 }
 
 .settings .menu li {
+    color: #fb676e;
     height: 25px;
     font-size: 16px;
     border-radius: 0;
@@ -175,6 +177,7 @@ body {
 }
 
 .content header p {
+    color: #fb676e;
     font-size: 20px;
     font-weight: 500;
 }
@@ -224,5 +227,5 @@ form .row label {
     color: #fff;
     font-size: 17px;
     border-radius: 4px;
-    background: #6a93f8;
+    background: #fb676e;
 }
